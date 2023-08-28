@@ -18,5 +18,6 @@ public class Tarefa16L2 {
 		int soma = numero1+numero3+numero2;
 		System.out.print(soma);
 	}
+	
 
 }

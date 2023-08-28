@@ -12,5 +12,5 @@ public class Tarefa10L2 {
 		for (int num: tabela) {
 			System.out.println(numero + " X "+ num + " = "+numero * num);
 		}
-	}		
+	}
 }
