@@ -31,7 +31,8 @@ public class Biblioteca {
 	}
 
 	public Livro localizarLivroPorAutor(String busca) {
-		for(Livro item: livros) {
+		for(int i = 0;i <livros.length;i++) {
+			Livro item = livros[i];
 			if(item != null && item.autor.equalsIgnoreCase(busca)) {
 				return item;
 			}

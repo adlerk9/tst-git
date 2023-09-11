@@ -43,7 +43,6 @@ public class  Gerent {
 		Usuario u1 = new Usuario();
 		u1.nome = "Meliodas";
 		u1.email = "meliodas.gamesplai@email.com";
-		u1.id = 1;
 		u1.exibirInfo();
 		Livro l1 = new Livro();
 		l1.titulo = "A Batalha Da Torre";
